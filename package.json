@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "parcel": "^2.8.2"
+  },
+  "name": "interactive-rating",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "default": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Mario Petkov",
+  "license": "ISC"
+}
