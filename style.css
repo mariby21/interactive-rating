@@ -10,7 +10,24 @@ body {
   font-family: "Overpass", sans-serif;
   max-width: 1440px;
   height: 100vh;
-  background-color: hsl(216, 12%, 8%);
+  background: url(/images/pexels-baro-14934608.jpg);
+  background-position: 50% 80%;
+}
+
+main > h1 {
+  display: none;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+label {
+  display: none;
 }
 
 .wraper {
@@ -18,22 +35,19 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 22px;
+  border-radius: 38px;
   width: 422px;
   height: 412px;
   padding: 32px;
-  padding-bottom: 16px;
-  background-color: hsl(213, 19%, 14%);
+  background-color: hsl(213, 19%, 15%);
+  opacity: 0.9;
 }
 
 .page-rating {
-  height: 202px;
-  width: fit-content;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 28px;
 }
 
 .wraper h2 {
@@ -43,6 +57,10 @@ body {
 .wraper p,
 .buttons {
   color: hsl(217, 12%, 63%);
+}
+
+p {
+  line-height: 1.7em;
 }
 
 .header h2 {
@@ -116,7 +134,7 @@ body {
 .selected {
   background-color: hsl(213, 19%, 18%);
   border-radius: 22px;
-  width: 182px;
+  width: 192px;
   margin: 0 auto;
   padding: 8px;
   color: hsl(25, 97%, 53%);
